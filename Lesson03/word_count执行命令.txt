@@ -1,0 +1,17 @@
+pip install mrjob
+
+## locally running mode
+python word_count.py inputfile.txt > outputfile.txt
+python word_count.py inputfile1.txt inputfile2.txt > outputfile.txt
+
+## hadoop cluster running mode
+hadoop fs -put D:\Big-Data-Science\Big-Data-Analysis-with-Python-master\Lesson03\inputfile.txt hdfs://localhost:9000/user/
+
+python word_count.py -r hadoop --hadoop-streaming-jar C:\hadoop-3.0.0\share\hadoop\tools\lib\hadoop-streaming-3.0.0.jar hdfs://localhost:9000/user/inputfile.txt > counts.txt
+
+## distributed running model in hadoop clusters
+python pyfile.py inputfile.txt –r hadoop –mapper–step-num=0
+
+Found 2 unexpected arguments on the command line [hdfs:///user/ThinkPad/tmp/mrjob/word_count.ThinkPad.20211005.075105.889328/files/wd/setup-wrapper.sh#setup-wrapper.sh, hdfs:///user/ThinkPad/tmp/mrjob/word_count.ThinkPad.20211005.075105.889328/files/wd/word_count.py#word_count.py]
+
+

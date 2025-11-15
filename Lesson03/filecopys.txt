@@ -1,0 +1,11 @@
+#上传文件夹
+hadoop fs -mkdir hdfs://localhost:9000/data
+hadoop fs -mkdir hdfs://localhost:9000/data/mini_newsgroups
+hadoop fs -put D:\Big-Data-Science\Big-Data-Analysis-with-Python-master\Lesson03\data\mini_newsgroups\ hdfs://localhost:9000/data/mini_newsgroups/
+hadoop fs -ls hdfs://localhost:9000/data/mini_newsgroups/
+
+
+hadoop fs -mkdir hdfs://localhost:9000/data
+hadoop fs -mkdir hdfs://localhost:9000/data/pride-and-prejudice
+hadoop fs -put D:\Big-Data-Science\Big-Data-Analysis-with-Python-master\Lesson03\data\pride-and-prejudice\ hdfs://localhost:9000/data/pride-and-prejudice/
+hadoop fs -ls hdfs://localhost:9000/data/pride-and-prejudice/

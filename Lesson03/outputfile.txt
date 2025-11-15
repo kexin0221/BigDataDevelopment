@@ -1,0 +1,8 @@
+"be"	2
+"candlestick"	1
+"jack"	3
+"jumped"	1
+"nimble"	1
+"over"	1
+"quick"	1
+"the"	1

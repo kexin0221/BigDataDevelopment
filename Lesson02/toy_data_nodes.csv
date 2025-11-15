@@ -1,0 +1,14 @@
+node_id,attribute
+0,{label:a}
+1,{label:b}
+2,{label:c}
+3,{label:b}
+4,{label:c}
+5,{label:a}
+6,{label:b}
+7,{label:c}
+8,{label:c}
+9,{label:a}
+10,{label:c}
+11,{label:a}
+12,{label:b}

@@ -1,0 +1,14 @@
+pyspark连接Mysql是通过java实现的JDBC进行连接，所以需要下载连接Mysql的jar包：
+https://downloads.mysql.com/archives/c-j/
+选择Product Version: 8.0.26
+       Operating System: Platform Independent
+下载mysql-connector-java-8.0.26.tar.gz或mysql-connector-java-8.0.26.zip
+解压得到mysql-connector-java-8.0.26.jar文件
+
+
+1：pyspark连接mysql
+将下载的jar包mysql-connector-java-8.0.26.jar拷贝到C:\Python37\Lib\site-packages\pyspark\jars文件夹里。
+
+
+2：spark连接mysql
+将下载的jar包mysql-connector-java-8.0.26.jar拷贝到C:\spark-2.4.8-bin-without-hadoop\jars文件夹里。
